@@ -8,7 +8,7 @@ The fork keeps GitHub Actions disabled, because enabling them would also run eve
 
 | Job | Runner | Output |
 | --- | --- | --- |
-| `dmg` | macos-15 | `T3-Code-V-arm64.dmg`, audited read-only |
+| `dmg` | macos-26 | `T3-Code-V-arm64.dmg`, audited read-only |
 | `archives` | ubuntu-24.04 | `t3-V-linux-x64.tar.gz` and `t3-V-win32-x64.zip`, Linux smoke |
 | `windows-smoke` | windows-2025 | Windows CLI smoke receipt |
 | `publish` | ubuntu-24.04 | `cn-vV` Release on the fork via `scripts/release-desktop-cn.mjs` |
